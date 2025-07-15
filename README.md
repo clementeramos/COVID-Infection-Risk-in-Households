@@ -13,30 +13,33 @@ Ultimately, the goal is to identify the regions with lower SAR to investigate wh
 <h2>Walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create a Bayesian hierarchical model: <br/>
+<img src="https://i.imgur.com/b0sXwLW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Compute a trivial estimate of the true posterior probability:  <br/>
+<img src="https://i.imgur.com/4DAAu7S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Approximate the empirical distribution of SAR given the observed data: <br/>
+<img src="https://i.imgur.com/NG3kfLt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lTYhGRG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PlauRyq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Compare the theoretical and empirical distribution w/ a weak prior:  <br/>
+<img src="https://i.imgur.com/TcDHUoa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Compare the distributions using a strong prior:  <br/>
+<img src="https://i.imgur.com/MPAWBN4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Hierarchical Model Accounting For Asymptomatic Individuals:  <br/>
+<img src="https://i.imgur.com/TD06DeK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The asymptomatic rate for COVID-19 falls between 0.18 and 0.35; it is unlikely that the posterior distribution of infection has a large fraction of asymptomatic cases:  <br/>
+<img src="https://i.imgur.com/T1EZVnY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NpQPtDu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
